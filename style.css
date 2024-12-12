@@ -1,0 +1,157 @@
+
+nav {
+    background-color: #2d2d2d;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Zelda-themed gold color */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00FF00; /* Zelda green */
+  }
+  /* Presentation Section */
+  .presentation {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080'); /* Replace with your Zelda fanart URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .presentation h1 {
+    font-size: 4rem;
+    font-family: 'Times New Roman', serif;
+    color: #FFD700;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
+
+  .presentation h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+  }
+
+  .presentation img {
+    width: 80px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  /* Summary Section */
+  .summary {
+    padding: 50px;
+    background-color: #1c1c1c;
+  }
+
+  .summary h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #FFD700;
+  }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .game {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #333;
+    cursor: pointer;
+  }
+
+  .game img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .game:hover img {
+    transform: scale(1.05);
+  }
+  
+  .summary {
+    padding: 50px;
+    background-color: #1c1c1c;
+  }
+  
+  .summary h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #FFD700;
+  }
+  
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .game {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .game img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .game:hover img {
+    transform: scale(1.05);
+  }
+  
+  .game-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .game:hover .game-description {
+    opacity: 1;
+  }
+  
+  .game-description a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+      
